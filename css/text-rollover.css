@@ -1,0 +1,29 @@
+﻿.rollover{
+position: relative;
+z-index: 50;
+}
+
+.rollover:hover{
+text-decoration: none;
+z-index: 50;
+}
+
+.rollover span{ /*enlarged image*/
+position: absolute;
+background-color: white;
+padding: 5px;
+left: 0px;
+border: 1px double black;
+visibility: hidden;
+z-index: 50;
+}
+
+.rollover:hover span{ /*enlarged image on hover*/
+white-space: nowrap;
+visibility: visible;
+top: -160;
+left: 125px;
+width: 235px;
+z-index: 50;
+}
+

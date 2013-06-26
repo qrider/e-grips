@@ -1,0 +1,73 @@
+/*
+Rounded corners provided by spiffy. Thank you spiffy:)
+*/
+.spiffy{
+display:block;
+}
+.spiffy *{
+display:block;
+height:1px;
+overflow:hidden;
+background: black;
+filter:alpha(opacity=90);  
+opacity: 0.9;
+}
+
+.spiffybt{
+display:block;
+}
+.spiffybt *{
+display:block;
+height:1px;
+overflow:hidden;
+background: black;
+filter:alpha(opacity=90); 
+opacity: 0.9;
+}
+
+.spiffy1{
+border-right:1px solid #3c3c3c;
+padding-right:1px;
+margin-right:3px;
+border-left:1px solid #3c3c3c;
+padding-left:1px;
+margin-left:3px;
+background:#3c3c3c;
+}
+.spiffy2{
+border-right:1px solid #3c3c3c;
+border-left:1px solid #3c3c3c;
+padding:0px 1px;
+background:#3c3c3c;
+margin:0px 1px;
+}
+.spiffy3{
+border-right:1px solid #3c3c3c;
+border-left:1px solid #3c3c3c;
+margin:0px 1px;
+}
+.spiffy4{
+border-right:1px solid #3c3c3c;
+border-left:1px solid #3c3c3c;
+}
+.spiffy5{
+border-right:1px solid #3c3c3c;
+border-left:1px solid #3c3c3c;
+}
+.spiffy_content{
+padding:0px 0px;
+background: transparent;
+background-image: url(../images/gradient.gif);
+background-repeat: no-repeat; 
+filter:alpha(opacity=90);  
+opacity: 0.9;
+height: 130px;
+}
+
+.spiffy_content2{
+padding:0px 0px;
+background: black;
+filter: alpha(opacity=90);
+opacity: 0.9;
+height: 135px;
+}

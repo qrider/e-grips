@@ -1,0 +1,48 @@
+#slmenu{ /* Explorer browsers */
+font: italic small-caps bold 12px arial;
+}
+
+/*
+html>body #slmenu {	 All other browsers 
+font: italic small-caps bold 12px arial;
+}*/
+
+#slmenu:after{ /*Firefox*/
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+#slmenu ul{
+text-indent: 10px;
+padding: 3px 0;
+margin: 0;
+background-color: transparent;
+border: none;
+text-align: left;
+}
+
+#slmenu ul li{
+display: inline;
+}
+
+#slmenu ul li a{
+color: black;
+padding: 3px 0;
+padding-right: 25px;
+margin: 0;
+text-decoration: none;
+}
+
+.slash {
+    background: transparent url(slash.png) top right no-repeat;
+}
+
+#slmenu ul li a:visited{
+color: black;
+}
+
+#slmenu ul li a:hover{
+color: yellow;
+}

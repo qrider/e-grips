@@ -1,0 +1,242 @@
+ /* main.css Firefox and other non IE7 browsers */
+
+body {
+        background-color: #3c3c3c;
+        font-family: helvetica, arial, sans-serif;
+        font-size: 13px;
+        position: relative;
+        display: block;
+        position: relative;
+        margin:0 auto;       
+        min-width: 800px; 
+        width: 900px; 
+        border-top: 5px;
+        border-bottom: 5px;
+        border-left: 0px;
+        border-right: 0px; 
+        padding-top: 5px;
+    }
+    
+    a img { border: none;
+    }
+    #news-block a img{display:block;}
+       
+   #logo {
+        padding-left: 10px;
+   }
+   
+   #cart {
+        position: absolute;
+        top: 10px ; 
+        /*left: 610px;*/
+        left: 810px;
+        white-space: nowrap;
+        
+    }
+
+   #header {
+        position: absolute; 
+        top: 40px ;
+	    font-variant: small-caps;
+	    font-weight: 900;
+	    white-space: nowrap;
+	    vertical-align: top;
+   }
+		    
+    #header ul {
+	    width: 100%;
+	    clear: both;
+    }
+    
+    #header li {
+        position: relative; 
+	    display: inline;	    
+    }
+
+    #header li a{
+        text-decoration: none;
+	    color: #85C1FE;
+	    padding: 0px 45px 0px 12px;	    
+    }
+    
+    
+    #secondary-header {
+        position: absolute; 
+        top: 72px;
+        width: 900px;
+        height: 25px;
+	    font-weight: 900;
+	    font-variant: small-caps;
+	    font-size: 12px;
+	    white-space: nowrap;
+	    background-image: url('../images/pipe.png');
+	    
+    }
+    
+    #secondary-header ul {
+	width: 90%;
+	margin-top: 3px;
+	text-align: right;	      
+    }
+    
+    #secondary-header li {
+	display: inline;
+    }
+
+    #secondary-header li a
+    {
+        position: relative; 
+        top: 3px;
+	text-decoration: none;
+	color: black;
+	padding: 0px 25px 0px 0px;
+	white-space: nowrap;
+	vertical-align: bottom; 
+	    
+	    
+    }
+    
+     #secondary-header li a:hover{
+	color: yellow;
+    }
+    
+    
+    #main {
+	width: 100%;
+        margin: 0; 
+        text-align:left; 
+        
+    }
+    .emphasis{
+    	font-weight:bold;
+    	text-decoration:underline;
+    	
+    }
+    .italic{
+    }
+    
+    #left-main {
+        position: absolute;
+	top: 100px;
+	left: -7px;
+	    
+    }
+    #right-main-top {
+        position: absolute;
+        top: 110px;
+        width: 245px;
+        left: 655px;
+        
+    }
+            
+    #rt-main-title {
+        font-family: helvetica, arial, sans-serif;
+        font-weight: 900;
+	font-variant: small-caps;
+        font-size: 13px;
+        padding-top: 2px;
+        padding-left: 5px;
+        display: block;
+    }
+    
+    #rt-main-title ul {
+        list-style-type: disc;
+        margin-left: -33px;
+    }
+    
+    #rt-main-title li {
+	display: block;
+	padding-bottom: 7px;
+    }
+    
+    #rt-main-title ul li a {
+        color: black;
+        text-decoration: underline;
+        
+    }
+    
+    #rt-main-title ul li a:hover {
+        color: #85C1FE;
+        background-color: #3c3c3c;
+        text-decoration: underline;
+    }
+    
+    #right-main-bottom {
+        position: absolute;
+        top: 310px;
+        width: 245px;
+        left: 655px;
+        height: 135px;
+    }
+    
+    #footer {
+        position: absolute;
+        top: 470px;
+        width: 900px;
+        left: 0px;
+        height: 30px;
+    }
+    
+    #footer-mid{
+        margin-left: 5px;
+        height: 50px;
+	    background: transparent;
+    }
+    
+    #footer-mid a{
+        padding-right: 20px;
+    }
+    
+    #secondary-footer {
+        position: absolute; 
+        top: 60px;
+        width: 900px;
+        height: 25px;
+	font-weight: 900;
+	font-variant: small-caps;
+	font-size: 12px;
+	white-space: nowrap;
+	background-image: url('../images/pipe.png');
+    }
+    
+    div#emailSignup{
+    	display: none;
+    	position: absolute;
+    	width: 200px;
+    	height: 100px;
+    	top: 370px;
+    	left: 20px;
+    	background-color: #000;
+    	border: 1px solid #7CB2EA;
+    }
+    div#emailSignup div.signupContainer{
+    	padding: 10px;
+    }
+    
+    div#emailSignup div.signupContainer div.submitButton{
+    	width: 40px;
+    	height: 20px;
+    	background-color: #7CB2EA;
+    	float: right;
+    }
+    
+    .adBox{
+    	position: absolute;
+    	width: 200px;
+    	height: auto;
+    	border: 1px solid #ccc;
+    	background-color: #fff;
+    	font-weight: bold;  
+    	padding: 5px;  	
+    	z-index: 200;
+    }
+    .adBox span{
+    	color: #AA0300;
+    	text-transform: uppercase;
+    }
+    
+    
+  
+  
+  
+    

@@ -1,0 +1,54 @@
+ /* ie5-6.css Internet Explorer Versions 5 and 6 */
+ 
+     #logo img
+     {
+        width: 194px; 
+        height: 40px;
+        behavior: url("pngbehavior.htc");  
+     }    
+     
+     #cart-img{
+      	width: 75px; 
+	    height: 20px;
+        behavior: url('pngbehavior.htc');
+    
+    }
+ 
+    #header {         
+         top: 55px ; 	    
+ 	}		    
+    
+    #secondary-header {
+       background: #3c3c3c url('../../images/ie5-6/pipe.gif') no-repeat;	    
+ 	}     
+     
+     #inner-main-mid
+     {         
+         background: transparent url(../../images/pp-bg-mid.gif) repeat-y;
+     }     
+     
+     #inner-main-bot
+     {       
+         background: transparent url(../../images/pp-bg-bot.gif) no-repeat bottom;
+     }     
+     
+     #secondary-footer 
+     {       	   
+ 	    background: #3c3c3c url('../../images/ie5-6/pipe.gif') no-repeat;
+     }
+     
+     #main-subtitle
+     {
+         top: 41px;
+         background: transparent url('../../images/ie5-6/subtitle-bg.gif') no-repeat center;          
+     }
+     
+     #main-subtitle h3
+     {
+         margin-top: 1px;
+         margin-bottom: 0;         
+     }     
+    
+    .slash {
+        background: transparent url(../slash.gif) top right no-repeat;
+    }

@@ -1,0 +1,285 @@
+/* main-subpp.css for Firefox and all non IE browsers*/
+
+body {
+        background-color: #3c3c3c;
+        font-family: arial, helvetica sans-serif;
+        font-size: 13px;
+        position: relative;
+        display: block;
+        position: relative;
+        margin:0 auto;       
+        min-width: 800px; 
+        width: 900px; 
+        border-top: 5px;
+        border-bottom: 5px;
+        border-left: 0px;
+        border-right: 0px; 
+        padding-top: 5px;
+    }
+    
+    a img { border: none;
+    }
+       
+   #logo {
+        padding-left: 10px;
+   }
+    
+.emphasis{
+font-weight:bold;
+text-decoration:underline;
+
+}
+.italic{
+    }
+   
+   #cart {
+        position: absolute;
+        top: 10px ; 
+       /*left: 610px;*/
+        left: 810px;
+        white-space: nowrap;        
+    }
+
+   #header {
+        position: absolute; 
+        top: 40px ;
+        left: -12.5px;
+    	font-variant: small-caps;
+	    font-weight: 900;
+	    white-space: nowrap;
+	    vertical-align: top;
+	}
+		    
+    #header ul {
+	    width: 100%;
+	    clear: both;
+    }
+    
+    #header li {
+        position: relative; 
+	    display: inline;	    
+    }
+
+    #header li a{
+        text-decoration: none;
+	    color: #85C1FE;
+	    padding: 0px 45px 0px 12px;
+
+	    
+    }    
+    
+    #secondary-header {
+        position: absolute; 
+        top: 72px;
+        width: 900px;
+        height: 25px;
+	    font-weight: 900;
+	    font-variant: small-caps;
+	    font-size: 12px;
+	    white-space: nowrap;
+	    background-image: url('../../images/pipe.png');
+	    
+	    
+	}
+    
+    #secondary-header ul {
+	    width: 90%;
+	    margin-top: 3px;
+	    text-align: right;	      
+    }
+    
+    #secondary-header li {
+	    display: inline;
+    }
+
+    #secondary-header li a
+    {
+        position: relative; 
+        top: 3px;
+	    text-decoration: none;
+	    color: black;
+ 	    padding: 0px 25px 0px 0px;
+	    white-space: nowrap;
+	    vertical-align: bottom; 
+	    
+	    
+    }
+    
+    #secondary-header li a:hover{
+	    color: yellow;
+    }
+    
+    #description
+    {
+        position: absolute;
+        top: 5px;
+        left: 35px;        
+    }
+    
+    #climbareas
+    {
+        position: absolute;
+        top: 5px;
+        left: 127px;
+    }    
+    
+     #main {
+	    position: absolute;
+        margin: 0; 
+        width: 100%;
+	    top: 100px;
+	    left: 0px;
+        
+    }
+    
+    #inner-main-top {
+        position: absolute;
+        margin: auto;
+        padding-top: 15px;
+        width: 830px;
+        height: 46px;
+        left: 35px;
+        filter: alpha(opacity=80); 
+        opacity: .8;
+           
+    }
+    
+     #inner-main-h4 
+     {  
+        margin-top: 22px;
+        margin-left: 35px;
+        color: #0033CC;    
+     }
+    
+    #inner-main-mid
+    {
+        position: absolute;
+        left: 35px;
+        top: 63px;
+        width: 830px;
+        height: 420px;
+        background: transparent url('../../images/pp-bg-mid.gif') repeat-y;
+        filter: alpha(opacity=80); 
+        opacity: .8;
+    }
+    
+    #inner-main-mid table
+    {
+        margin: auto;
+    }
+    
+    #inner-main-mid table tr td
+    {
+        padding: 10px 20px 10px 20px;
+        
+    }
+    
+    #thumbnails
+    {
+       display: block;
+       text-align: center;
+       white-space: nowrap;
+       background-color: #FF9900;
+    }
+    
+    #thumbnails a
+    {
+       font-size: 12px;
+       font-weight: bold; 
+       text-decoration: none;
+       color: Black;
+    }
+    
+   #thumbnails a img
+    {
+        border-style: solid;
+	    border-color: black;
+	    border-width: 1px;
+	    margin: 0px;
+	    padding: 2px;
+	    background-color: White;
+    }
+    
+    #thumbnails a:hover
+    {
+       color: #FF9900;
+    }
+    
+    #thumbnails:hover
+    {   
+       background-color: Black;           
+    }
+    
+    #descrip-body
+    {
+       display: block;
+       text-align: justify;
+       white-space: normal;
+       background-color: Transparent;
+       width: 250px;
+       margin: 0px 5px;
+       font-size: 12px;
+       font-weight: bold;
+    }
+    .signatureHolds #descrip-body{
+    	background-color: #ccc;
+    	padding: 10px;
+    }    
+    #inner-main-bot
+    {
+        position: absolute;
+        left: 35px;
+        top: 479px;
+        width: 830px;
+        height: 39px;
+        background: transparent url('../../images/pp-bg-bot.gif') no-repeat bottom;
+        filter: alpha(opacity=80); 
+        opacity: .8;
+    }
+        
+    #footer {
+        position: absolute;
+        top: 560px;
+        width: 900px;
+        left: 0px;
+        height: 30px;
+    }
+    
+    #footer-mid{
+        margin-left: 5px;
+        height: 50px;
+	    background: transparent;
+    }
+    
+    #footer-mid a{
+        padding-right: 20px;
+    }
+    
+    #secondary-footer {
+        position: absolute; 
+        top: 65px;
+        width: 900px;
+        height: 25px;
+	    font-weight: 900;
+	    font-variant: small-caps;
+	    font-size: 12px;
+	    white-space: nowrap;
+	    background: transparent url('../../images/pipe.png') no-repeat;
+	    padding-bottom: 5px;
+    }
+    
+    .adBox{
+    	position: absolute;
+    	width: 500px;
+    	height: auto;
+    	border: 1px solid #ccc;
+    	background-color: #fff;
+    	font-weight: bold;  
+    	padding: 5px;  	
+    	z-index: 200;
+    }
+    .adBox span{
+    	color: #AA0300;
+    	text-transform: uppercase;
+    }
+    

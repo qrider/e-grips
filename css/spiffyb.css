@@ -1,0 +1,64 @@
+/*
+Rounded corners provided by spiffy. Thank you spiffy:)
+*/
+.spiffy-b{
+display:block;
+}
+.spiffy-b *{
+display:block;
+height:1px;
+overflow:hidden;
+background: #FFFFFF;
+filter:alpha(opacity=90);  
+opacity: 0.9;
+}
+
+.spiffybt-b{
+display:block;
+}
+.spiffybt-b *{
+display:block;
+height:1px;
+overflow:hidden;
+background: transparent;
+filter:alpha(opacity=90); 
+opacity: 0.9;
+}
+
+.spiffy1-b{
+border-right:1px solid #3c3c3c;
+padding-right:1px;
+margin-right:3px;
+border-left:1px solid #3c3c3c;
+padding-left:1px;
+margin-left:3px;
+background:#white;
+}
+.spiffy2-b{
+border-right:1px solid #3c3c3c;
+border-left:1px solid #3c3c3c;
+padding:0px 1px;
+background:#3c3c3c;
+margin:0px 1px;
+}
+.spiffy3-b{
+border-right:1px solid #3c3c3c;
+border-left:1px solid #3c3c3c;
+margin:0px 1px;
+}
+.spiffy4-b{
+border-right:1px solid #3c3c3c;
+border-left:1px solid #3c3c3c;
+}
+.spiffy5-b{
+border-right:1px solid #3c3c3c;
+border-left:1px solid #3c3c3c;
+}
+.spiffy_content-b{
+padding:0px 0px;
+background-image: url(../images/right-gradient2.gif);
+background-repeat: no-repeat; 
+filter:alpha(opacity=90);  
+opacity: 0.9;
+height: 200px;
+}

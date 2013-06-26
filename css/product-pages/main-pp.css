@@ -1,0 +1,264 @@
+body {
+        background-color: #3c3c3c;
+        font-family: helvetica, arial, sans-serif;
+        font-size: 13px;
+        position: relative;
+        display: block;
+        position: relative;
+        margin:0 auto;       
+        min-width: 800px; 
+        width: 900px; 
+        border-top: 5px;
+        border-bottom: 5px;
+        border-left: 0px;
+        border-right: 0px; 
+        padding-top: 5px;
+    }
+    
+    a img { border: none;
+    }
+       
+   #logo {
+        padding-left: 10px;
+   }
+   
+   #cart {
+        position: absolute;
+        top: 10px ; 
+        left: 810px;
+        white-space: nowrap;
+        z-index: 1000;
+        
+    }
+
+   #header {
+        position: absolute; 
+        top: 40px ;
+	    font-variant: small-caps;
+	    font-weight: 900;
+	    white-space: nowrap;
+	    vertical-align: top;
+	}
+		    
+    #header ul {
+	    width: 100%;
+	    clear: both;
+    }
+    
+    #header li {
+        position: relative; 
+	    display: inline;	    
+    }
+
+    #header li a{
+        text-decoration: none;
+	    color: #85C1FE;
+	    padding: 0px 55px 0px 12px;
+
+	    
+    }
+    
+    
+    #secondary-header {
+        position: absolute; 
+        top: 72px;
+        width: 900px;
+        height: 25px;
+	    font-weight: 900;
+	    font-variant: small-caps;
+	    font-size: 12px;
+	    white-space: nowrap;
+	    background-image: url('../../images/pipe.png');
+	    
+	    
+	}
+    
+    #secondary-header ul {
+	    width: 90%;
+	    margin-top: 3px;
+	    text-align: right;	      
+    }
+    
+    #secondary-header li {
+	    display: inline;
+    }
+
+    #secondary-header li a
+    {
+        position: relative; 
+        top: 3px;
+	    text-decoration: none;
+	    color: black;
+	    padding: 0px 25px 0px 0px;
+	    white-space: nowrap;
+	    vertical-align: bottom; 
+	    
+	    
+    }
+    
+     #main {
+	   position: absolute;
+        margin: 0; 
+        width: 100%;
+	    top: 100px;
+	    left: 0px;
+        
+    }
+    
+    #inner-main-top {
+        position: absolute;
+        margin: auto;
+        padding-top: 15px;
+        width: 830px;
+        height: 46px;
+        left: 35px;
+        background: transparent url(../../images/pp-bg-top-2.png) no-repeat top;
+        filter: alpha(opacity=80); 
+        opacity: .8;
+           
+    }
+    
+     #inner-main-h4 
+     {  
+        margin-top: 22px;
+        margin-left: 35px;
+        color: #0033CC;    
+     }
+    
+    #inner-main-mid
+    {
+        position: absolute;
+        left: 35px;
+        top: 63px;
+        width: 830px;
+        height: 420px;
+        background: transparent url(../../images/pp-bg-mid.png) repeat-y;
+    }
+    
+    #inner-main-mid table
+    {
+        margin: auto;
+    }
+    
+    #inner-main-mid table tr td
+    {
+        padding: 10px 20px 10px 0px;
+        
+    }
+    
+    #inner-main-bot
+    {
+        position: absolute;
+        left: 35px;
+        top: 479px;
+        width: 830px;
+        height: 39px;
+        background: transparent url(../../images/pp-bg-bot.png) no-repeat bottom;
+    }
+    
+    #description
+    {   
+       position: absolute;
+       top: 5px;
+       left: 35px;
+       background: Transparent url(../../images/dsp-bg-pp-2.png) no-repeat;
+       width: 300px;
+       height: 283px;
+       margin-top: 15px;
+       margin-left: 325px;
+             
+    }   
+    
+    #description div
+    {   
+       
+       display: block;
+       text-align: justify;
+       font-size: 12px;
+       font-weight: bold;
+       margin: 35px 85px 0px 10px;
+      
+    }    
+     
+    #product-photo
+    {
+        postion: relative;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    
+    #footer {
+        position: absolute;
+        top: 560px;
+        width: 900px;
+        left: 0px;
+        height: 30px;
+    }
+    
+    #secondary-footer {
+        position: absolute; 
+        top: 60px;
+        width: 900px;
+        height: 25px;
+	    font-weight: 900;
+	    font-variant: small-caps;
+	    font-size: 12px;
+	    white-space: nowrap;
+	    background-image: url('../../images/pipe.png');
+    }
+    
+    #main-subtitle
+    {
+        position: absolute; 
+        top: 40px;
+        left: 50px;
+        width: 242px;
+        height: 40px;  
+        background: transparent url('../../images/subtitle-bg.png') no-repeat center;
+        z-index: 1;   
+    }
+    
+    #main-subtitle h3
+    {
+        font: 20px Swis721 BlkCn BT;
+        color:white;
+        margin-top:0;
+        padding-top: 8px;
+        padding-left: 20px;
+    }
+    
+    #main-subtitle h3 font
+    {
+        font: 13px arial;
+        color: #555555;
+        padding-top: 9px;
+        padding-left: 40px;
+    }
+    
+    #form
+    {
+        position: absolute; 
+        width: 210px; 
+        height: 400px; 
+        top: 15px; 
+        left:590px; 
+    
+    }
+    
+    #bottom-logo{
+        position: absolute; 
+        width: 94px; 
+        height: 94px; 
+        top: 225px; 
+        left:690px;
+    }
+    
+    #protips{
+        position: absolute; 
+        width: 300px; 
+        height: 100px; 
+        top: 225px; 
+        left:360px; 
+        background-image: url(../../images/rs-bg.png);
+    }

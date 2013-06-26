@@ -1,0 +1,61 @@
+  /* pp-ie5-6.css Internet Explorer Versions 7 */
+     
+           
+     #cart-img{
+      	width: 75px; 
+	    height: 20px;
+        behavior: url('pngbehavior.htc');
+    
+    }
+     
+     #header {
+        top: 55px; 	    
+ 	}    
+     
+     #secondary-header {        
+ 	    background: #3c3c3c url('../../images/ie5-6/pipe.gif') no-repeat; 	    
+ 	}
+     
+     #thumbnails a:hover
+     {
+        color: #CCCCCC;
+     }
+     
+     #thumbnails:hover
+     {   
+        background-color: #FF9900;           
+     }
+     
+     #descrip-body
+     {        
+        width: 250px;        
+     }   
+     
+     #secondary-footer {          
+        top: 60px; 	    
+ 	    background: #3c3c3c url('../../images/ie5-6/pipe.gif') no-repeat;
+     }
+             
+    #logo
+    {
+        padding-left: 10px;
+        
+     }
+     
+     #logo img
+     {
+        width: 194px; 
+        height: 40px;
+        behavior: url("pngbehavior.htc");  
+     }
+     
+     #newtag
+     {
+        width: 50px; 
+        height: 30px;
+        behavior: url("pngbehavior.htc");
+     }
+        
+     .slash {
+        background: transparent url(../slash.gif) top right no-repeat;
+    }
